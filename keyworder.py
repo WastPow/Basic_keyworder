@@ -13,7 +13,14 @@ def keyworder(text):
             "kolhydrater",
             "cola",
             "godis"
-        ]
+        ],
+        "#barnfetma": [
+            #insert keywords here...
+        ],
+        "#fetma": [
+            #insert keywords here...
+        ],
+        #insert more tags here...
     }
 
     article = text.split(". ")
