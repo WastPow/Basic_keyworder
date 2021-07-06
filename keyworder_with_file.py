@@ -30,7 +30,7 @@ def keyworder(file):
     for line in f:
         for tag in tags:
             for keyword in tags[tag]:
-                if keyword in line:
+                if keyword in line.lower():
                     appropriate_tags.append(tag)
                     flag = 1
                     print(line)
